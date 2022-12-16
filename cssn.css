@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    background-image: url("jwtlo3.jpg"); 
+    opacity:0.9; 
+    background-attachment:fixed; 
+    background-size:100% 100%
+}
+
+.tytul{
+    font-family: Arial;
+    margin-left: 3%;
+    margin-top: 20px;
+    height: 70px;
+}
+
+.navbar{
+    color: azure;
+    margin-left: 5px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.opis{
+    margin-left: 15%;
+    margin-top: 5%;
+    width: 50%;
+}
+
+.gorna{
+    flex: 1;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.gorna li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+ul li a{
+    color: azure;
+    text-decoration: none;
+    margin: 0 10px;
+    backdrop-filter: blur(10px);
+}
+
+
+.zwiastun{
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info2{
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jw5{
+    padding: 30px;
+    width: 139.5px;
+}

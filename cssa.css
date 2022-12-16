@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    background-image: url("jwtlo2.jpg"); 
+    opacity:0.9; 
+    background-attachment:fixed; 
+    background-size:100% 100%
+}
+
+.tytul{
+    font-family: Arial;
+    margin-left: 3%;
+    margin-top: 20px;
+    height: 70px;
+}
+
+.navbar{
+    margin-left: 5px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.opis{
+    margin-left: 15%;
+    margin-top: 5%;
+    width: 25%;
+}
+
+.gorna{
+    flex: 1;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.gorna li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.banner{
+    display: flex;
+    margin-top: 0px;
+}
+
+.left-column,.right-column{
+    flex-basis: 50%;
+}
+
+.serwis{
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.naglowek{
+    margin: 40px 20%;
+}
+
+.info{
+    font-size: 17px;
+    margin-left: -70px;
+    backdrop-filter: blur(6px);
+}
+
+.bottombanner{
+    display: flex;
+}
+
+.lcol, .rcol{
+    flex-basis: 50%;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+
+.filmografia{
+    margin-top: 5%;
+    margin-left: 300px;
+}
+
+.role{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.roletop{
+    padding: 40px;
+}
+
+.infotop{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.top{
+    width: 30%;
+    padding: 20px;
+}
+
+.filmy{
+    font-size: 30px;
+}

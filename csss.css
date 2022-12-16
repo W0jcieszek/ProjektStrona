@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    color: azure;
+    font-size: 20px;
+    background-image: url("jwtlo.jpg"); 
+    opacity:0.9; 
+    background-attachment:fixed; 
+    background-size:100% 100%
+}
+
+.tytul{
+    font-family: Arial;
+    margin-left: 3%;
+    margin-top: 20px;
+    height: 70px;
+}
+
+.navbar{
+    margin-left: 5px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.gorna{
+    flex: 1;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.gorna li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: azure;
+    margin: 0 10px;
+}
+
+.bottombanner{
+    padding: 10px;
+}
+
+.info{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jw{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    margin-left: -12%;
+}
+
+.movie{
+    width: 15%;
+    padding: 20px;
+}

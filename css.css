@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tytul{
+    font-family: Arial;
+    margin-left: 3%;
+    margin-top: 20px;
+    height: 70px;
+}
+
+.navbar{
+    margin-left: 5px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.opis{
+    margin-left: 15%;
+    margin-top: 5%;
+    width: 50%;
+}
+
+.gorna{
+    flex: 1;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.gorna li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.banner{
+    display: flex;
+    margin-top: 0px;
+}
+
+.left-column,.right-column{
+    flex-basis: 50%;
+}
+
+.left-column{
+    background: linear-gradient(90deg, grey, white 95%);
+}
+
+.right-column{
+    background: linear-gradient(90deg, white, grey 95%);
+}
+
+.serwis{
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.naglowek{
+    margin: 40px 20%;
+}
+
+.info{
+    font-size: 15px;
+    margin-left: -70px;
+}
+
+.bottombanner{
+    display: flex;
+}
+
+.lcol, .rcol{
+    flex-basis: 50%;
+}
+
+.lcol{
+    background: linear-gradient(90deg, grey, white 95%);
+}
+
+.rcol{
+    background: linear-gradient(90deg, white, grey 95%);
+}
+
+.rezyser{
+    margin-left: 160px;
+    margin-top: 20%;
+}
+
+.rezopis{
+    font-size: 15px;
+}
+
+.chad{
+    margin-left: 20%;
+    width: 31.39%;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
